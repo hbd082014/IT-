@@ -1,0 +1,217 @@
+body,p,ul,li,h3,h4{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #fafafa;
+}
+div.top{
+    width: 80%;
+    padding: 0.5% 10%;
+    color: #79c7a3;
+    font-size: 1.2em;
+    font-weight: 500;
+    height: 4rem;;
+    line-height: 4rem;
+    background-color: white;
+}
+#container{
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+#imglist{
+    position: relative;
+    width: 400%;
+}
+#imglist img{
+    width: 25%;
+    float: left;
+    z-index: 1;
+}
+#leftarrow{
+    position: absolute;
+    top: 40%;
+    left: 15.1%;
+    z-index: 2;
+}
+#rightarrow{
+    position: absolute;
+    top: 40%;
+    left: 83.1%;
+    z-index: 2;
+}
+#buttons{
+    position: absolute;
+    left: 45%;
+    top: 5%;
+    z-index: 2;
+}
+#buttons li{
+    float: left;
+    width: 10px;
+    height: 10px;
+    margin: 0 5px;
+    border-radius: 5px;
+    border: 1px solid white;
+    list-style-type: none;
+}
+.on{
+    background-color:red;
+}
+.nav{
+    height:1rem;
+    background-color:#29b078;
+    font-size:2rem;
+    margin: 0;
+    padding:1% 10% 4.5% 53%;
+}
+a{
+    display: block;
+    color: white;
+    text-decoration:none;
+    padding: 2% 6%;
+    float: left;
+    opacity: 0.9;
+}
+ul{
+    width:100%;
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+}
+li{
+    width:21%;
+    margin: 5% 1%;
+    padding:0 0.9% 0 0.9%;
+    float: left;
+}
+li i{
+    background: url("img/task7-sprite.png");
+    width: 125px;
+    height: 125px;
+    float: left;
+    margin:0 20%;
+}
+li p{font-size: 1.1em;
+    margin:3% 0;
+    font-weight: 500;
+    color:#b0b0b0
+}
+li h3{
+    text-align: center;
+    margin:5% 0;
+}
+li h4{
+    margin: 10% 0;
+}
+.cat-1 i{background-position: 0 -127px;}
+.cat-2 i{background-position:-135px -127px;}
+.cat-3 i{background-position:-270px -127px;}
+.cat-4{
+    padding-top: 3%;
+    border-left:2px dashed #afafaf;
+}
+.cat-5 i{background-position: 0 0;}
+.cat-6 i{background-position: -135px 0;}
+.cat-7 i{background-position: -260px 0;}
+.cat-8 i{background-position: -390px 0;}
+.cat-5{background-color: white;margin:0 2% 0 0;padding: 2% 1%}
+.cat-6{background-color: white;margin:0 2% 0 0;padding: 2% 1%}
+.cat-7{background-color: white;margin:0 2% 0 0;padding: 2% 1%}
+.cat-8{background-color: white;margin:0;padding: 2% 1%}
+div.content{
+    margin:5% 10%;
+}
+.circle{
+    border-radius: 50%;
+    width:3.5rem;
+    height:3.5rem;
+    background-color: white;
+    font-size: 2rem;
+    line-height: 3.5rem;
+    text-align:center;
+    color: #29b078;
+    margin:2% 0;
+    float: left;
+    overflow: hidden;
+}
+div.text{
+    font-size:1rem;
+    float: left;
+    height: 3.5rem;
+    margin:3% 1% 3% 1%;
+    width: 17%;
+}
+h1{
+    width: 40%;
+    padding:0 30%;
+    text-align: center;
+}
+li.img{
+    width: 16%;
+    height: 5rem;
+    margin:0 0 5% 0;
+    padding:5% 2%;
+    background-color: white;
+    text-align: center;
+}
+li.txt{
+    text-align: center;
+    width: 100%;
+    font-size: 2rem;
+    font-weight: 600;
+}
+.title{
+    list-style-type: disc;
+    width: 80%;
+    margin:5% 0 0 0;
+    padding: 0 10%;
+    background-color: white;
+}
+li.h{
+    width: 100%;
+    list-style-type:none;
+    font-size: 2rem;
+    text-align: center;
+    margin: 1% 0;
+}
+li.cat{
+    width:7%;
+    margin:1% 0 1% 1%;
+    color:#b0b0b0;
+    font-size:0.8rem;
+    background-color: white;
+}
+.bottom{
+    width: 80%;
+    padding: 0 10%;
+    background-color: #26a26f;
+    margin:0;
+}
+.bottom h5{
+    font-size: 1.1rem;
+    color: white;
+}
+.bottom p{
+    color:white;
+    font-size: 1rem;
+    font-weight: 500;
+}
+.bottom li{margin: 1%}
+li.bottom-center{width:20rem}
+li.bottom-img{
+    width:10rem;
+    text-align: right;
+    float: right;
+    color:white;
+}
+li.bottom-bottom{
+    width: 100%;
+    height: 2rem;
+    line-height:2rem;
+    overflow: hidden;
+    margin: 1%;
+    padding-left: 23rem;
+    color: white;
+}
